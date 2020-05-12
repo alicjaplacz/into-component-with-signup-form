@@ -1,0 +1,107 @@
+body {
+background: hsl(0, 100%, 74%);
+background-image: url(bg-intro-desktop.png);
+font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  color: white;
+  font-weight: 700;
+  margin-bottom: 30px;
+  font-size: 280%;
+}
+
+p{
+  color: white;
+  margin: 0;
+  line-height: 1.7;
+}
+
+.container-fluid {
+  display: flex;
+  padding: 5% 8%;
+}
+
+/* Left side */
+
+.left-container {
+  text-align: left;
+  padding: 5%;
+  margin: auto;
+}
+
+.paragraph {
+  word-spacing: 2px;
+}
+/* Right side */
+
+.top-form {
+  background-color: hsl(248, 32%, 49%);
+  border-radius: 7px;
+  text-align: center;
+  padding: 15px 0;
+  margin-bottom: 20px;
+  box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.span{
+  font-weight: 600;
+}
+
+.form-container {
+  background-color: white;
+  padding: 5%;
+  border-radius: 7px;
+  text-align: center;
+  box-shadow: 1px 10px 5px rgba(0, 0, 0, 0.4);
+}
+
+.form-control {
+  margin: 25px 0;
+  font-size: 90%;
+  font-weight: 600;
+  width: 100%;
+  display:inline-flex;
+}
+
+
+.btn {
+  background-color: hsl(154, 59%, 51%);
+  border: 0;
+  margin-bottom: 10px;
+  margin-top: 30px;
+  font-size: 93%;
+  padding: 15px 0;
+  letter-spacing: 2px;
+}
+
+.small-print {
+  color: #bdc3c7;
+  font-size: 70%;
+}
+
+.span2 {
+  color: hsl(0, 100%, 74%);
+  font-weight: 600;
+}
+
+/* Activated when invalid/missing */
+
+.invalid {
+  border: 2px solid red;
+}
+
+.error {
+  display: block;
+  text-align: right;
+  color: red;
+  font-size: 70%;
+  font-weight: 600;
+  margin: -25px 0 -15px;
+  font-style: italic;
+}
+
+
+/* Footer */
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
